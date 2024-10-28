@@ -21,6 +21,7 @@ public class Showcase extends JavaPlugin {
     public void onEnable() {
         api = UltimateAdvancementAPI.getInstance(this);
         initializeTabs();
+        new CobblestoneGenerator(tab0);
     }
 
     public void initializeTabs() {
