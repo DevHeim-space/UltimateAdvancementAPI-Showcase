@@ -13,6 +13,6 @@ public class Iron_pickaxe11 extends MultiTasksAdvancement {
     public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.SHOWCASE_NAMESPACE, "iron_pickaxe11");
 
     public Iron_pickaxe11(Advancement parent, float x, float y) {
-        super(KEY.getKey(), new AdvancementDisplay(Material.IRON_PICKAXE, "§f§lIron tools!", AdvancementFrameType.CHALLENGE, false, false, x, y, "§7Craft all the iron tools", "§7(Sword, Pickaxe, Axe, Shovel, Hoe).", "", "§6Reward:", "§7Unlocks next advancement tabs! (Unimplemented in the showcase)"), parent, 5);
+        super(KEY.getKey(), new AdvancementDisplay(Material.IRON_PICKAXE, "§f§lIron tools!", AdvancementFrameType.CHALLENGE, true, true, x, y, "§7Craft all the iron tools", "§7(Sword, Pickaxe, Axe, Shovel, Hoe).", "", "§6Reward:", "§7Unlocks next advancement tabs! (Unimplemented in the showcase)"), parent, 5);
     }
 }
