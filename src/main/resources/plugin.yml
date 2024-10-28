@@ -1,0 +1,10 @@
+main: space.devheim.ultimateAdvancementAPIShowcase.Showcase
+name: UltimateAdvancementAPIShowcase
+version: ${project.version}
+description: ${project.description}
+authors: [fren_gor, EscanorTargaryen]
+website: ${project.url}
+
+api-version: 1.15
+
+depend: [UltimateAdvancementAPI]
