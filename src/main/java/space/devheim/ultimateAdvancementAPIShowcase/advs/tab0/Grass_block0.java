@@ -10,7 +10,7 @@ import space.devheim.ultimateAdvancementAPIShowcase.advs.AdvancementTabNamespace
 
 public class Grass_block0 extends RootAdvancement {
 
-    public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.tab0_NAMESPACE, "grass_block0");
+    public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.SHOWCASE_NAMESPACE, "grass_block0");
 
     public Grass_block0(AdvancementTab tab, float x, float y) {
         super(tab, KEY.getKey(), new AdvancementDisplay(Material.GRASS_BLOCK, "§a§lWelcome to SkyBlock!", AdvancementFrameType.TASK, false, false, x, y, "§7These are your first advancements in your adventure."), "textures/block/stone.png", 1);

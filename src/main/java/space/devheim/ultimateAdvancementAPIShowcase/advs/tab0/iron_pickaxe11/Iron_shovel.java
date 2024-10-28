@@ -7,7 +7,7 @@ import space.devheim.ultimateAdvancementAPIShowcase.advs.AdvancementTabNamespace
 
 public class Iron_shovel extends TaskAdvancement {
 
-    public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.tab0_NAMESPACE, "iron_shovel");
+    public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.SHOWCASE_NAMESPACE, "iron_shovel");
 
     public Iron_shovel(AbstractMultiTasksAdvancement multitask) {
         super(KEY.getKey(), multitask, 1);

@@ -10,7 +10,7 @@ import space.devheim.ultimateAdvancementAPIShowcase.advs.AdvancementTabNamespace
 
 public class Iron_ingot7 extends MultiParentsAdvancement {
 
-    public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.tab0_NAMESPACE, "iron_ingot7");
+    public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.SHOWCASE_NAMESPACE, "iron_ingot7");
 
     public Iron_ingot7(float x, float y, BaseAdvancement... parents) {
         super(KEY.getKey(), new AdvancementDisplay(Material.IRON_INGOT, "§f§lIron ingots", AdvancementFrameType.TASK, false, false, x, y, "§7Smelt iron ores to get 10 iron ingots.", "", "§6Reward:", "§7Unlocks every ore in cobblestone generators."), 1, parents);

@@ -7,7 +7,7 @@ import space.devheim.ultimateAdvancementAPIShowcase.advs.AdvancementTabNamespace
 
 public class Iron_axe extends TaskAdvancement {
 
-    public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.tab0_NAMESPACE, "iron_axe");
+    public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.SHOWCASE_NAMESPACE, "iron_axe");
 
     public Iron_axe(AbstractMultiTasksAdvancement multitask) {
         super(KEY.getKey(), multitask, 1);

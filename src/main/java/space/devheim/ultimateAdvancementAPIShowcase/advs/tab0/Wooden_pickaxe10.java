@@ -10,7 +10,7 @@ import space.devheim.ultimateAdvancementAPIShowcase.advs.AdvancementTabNamespace
 
 public class Wooden_pickaxe10 extends BaseAdvancement {
 
-    public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.tab0_NAMESPACE, "wooden_pickaxe10");
+    public static AdvancementKey KEY = new AdvancementKey(AdvancementTabNamespaces.SHOWCASE_NAMESPACE, "wooden_pickaxe10");
 
     public Wooden_pickaxe10(Advancement parent, float x, float y) {
         super(KEY.getKey(), new AdvancementDisplay(Material.WOODEN_PICKAXE, "§f§lWooden pickaxe", AdvancementFrameType.TASK, false, false, x, y, "§7Craft a wooden pickaxe.", "", "§6Reward:", "§7A wooden sword."), parent, 1);

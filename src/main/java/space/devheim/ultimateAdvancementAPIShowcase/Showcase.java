@@ -24,7 +24,7 @@ public class Showcase extends JavaPlugin {
     }
 
     public void initializeTabs() {
-        tab0 = api.createAdvancementTab(AdvancementTabNamespaces.tab0_NAMESPACE);
+        tab0 = api.createAdvancementTab(AdvancementTabNamespaces.SHOWCASE_NAMESPACE);
         HashSet<BaseAdvancement> tab0Set = new HashSet<>();
 
         CoordAdapter adaptertab0 = CoordAdapter.builder().add(Grass_block0.KEY, 0f, 0f).add(Oak_log1.KEY, 1f, 0f).add(Cobblestone2.KEY, 3f, 0f).add(Stone_pickaxe3.KEY, 4f, -1f).add(Furnace4.KEY, 4f, 1f).add(Iron_ore5.KEY, 5f, -1f).add(Charcoal6.KEY, 5f, 1f).add(Iron_ingot7.KEY, 6f, 0f).add(Wooden_pickaxe10.KEY, 2f, 0f).add(Iron_pickaxe11.KEY, 7f, 0f).build();
