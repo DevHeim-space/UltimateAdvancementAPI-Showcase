@@ -31,7 +31,7 @@ public class Iron_ore5 extends BaseAdvancement {
     }
 
     @Override
-    public void onGrant(@NotNull Player player, boolean giveRewards) {
+    public void giveReward(@NotNull Player player) {
         player.getInventory().addItem(new ItemStack(Material.IRON_ORE, 5));
     }
 }

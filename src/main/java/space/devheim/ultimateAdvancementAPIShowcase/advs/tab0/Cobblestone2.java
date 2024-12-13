@@ -31,7 +31,7 @@ public class Cobblestone2 extends BaseAdvancement {
     }
 
     @Override
-    public void onGrant(@NotNull Player player, boolean giveRewards) {
+    public void giveReward(@NotNull Player player) {
         player.getInventory().addItem(new ItemStack(Material.CHEST));
     }
 }

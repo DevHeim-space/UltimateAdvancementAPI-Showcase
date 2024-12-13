@@ -31,7 +31,7 @@ public class Wooden_pickaxe10 extends BaseAdvancement {
     }
 
     @Override
-    public void onGrant(@NotNull Player player, boolean giveRewards) {
-        player.getInventory().addItem(new ItemStack(Material.WOODEN_SWORD, 5));
+    public void giveReward(@NotNull Player player) {
+        player.getInventory().addItem(new ItemStack(Material.WOODEN_SWORD));
     }
 }
